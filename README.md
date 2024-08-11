@@ -1,5 +1,5 @@
 # sms_autoresponder_python2
-A usable SMS auto-responder for Python2 and Raspberry Pi
+A usable SMS auto-responder for Python2
 
 This Python 2 program checks a gmail account every few minutes. When an SMS from a phone matching a particular message is received, it executes a function and sends a confirmation message. As many functions (matching different messages) as the user desires can be added. You must have IMAP enabled in the gmail account used by the program. Since the password is in plain text, I use a special dedicated Gmail account for this program.  It works like this:
 
